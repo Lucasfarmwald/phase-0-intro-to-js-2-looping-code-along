@@ -1,8 +1,8 @@
-let names = []
 
 
+function writeCards(names){
+  names= ['lisa','Jan','Kaitlin']
 
-
-function writeCards(customer){
-  return names [`thank you, ${customer} for the wonderful gift!`];
+  for(let i = 0; i < names.length; i++)
+  return [`thank you, ${names['']} for the wonderful gift!`]
 }
